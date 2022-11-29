@@ -4,7 +4,8 @@ public class main {
 
 	public static void main(String[] args) {
 
-		System.out.println("Teste2");
+		Facade cliente = new Facade();
+		cliente.migrarCliente("Marcos", "317756");
 	}
 
 }
